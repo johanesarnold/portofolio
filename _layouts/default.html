@@ -50,22 +50,25 @@
            </div>
 
            <!-- Collect the nav links, forms, and other content for toggling -->
-           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav navbar-right">
-                   <li class="hidden">
-                       <a href="#page-top"></a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#about">About Me</a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#interests">Projects</a>
-                   </li>
-                   <li class="page-scroll">
-                       <a href="#contact">Contact</a>
-                   </li>
-               </ul>
-           </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                    <a href="#interests">Interests</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
            <!-- /.navbar-collapse -->
        </div>
        <!-- /.container-fluid -->
@@ -87,6 +90,7 @@
     </header>
 
     {% include about_me.html %}
+    {% include projects.html %}
     {% include interests.html %}
     {% include contact_form.html %}
 
